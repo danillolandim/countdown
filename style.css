@@ -1,0 +1,83 @@
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.Wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
+ 
+}
+
+.Title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--purple);
+}
+
+.Title h1{
+  font-size: 40px;
+}
+.countdown-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 300px;
+}
+
+.contentLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  
+}
+.contentLeft p {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.contentLeft button{
+  border-radius: 10px;
+  background-color: var(--purple);
+  color: white;
+  border: none;
+  height: 46px;
+  width: 160px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Text{
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+.countdown-el{
+  text-align: center;
+
+}
+
+.countdown-el span{
+  font-size: 1.5rem;
+  color: var(--text-color);
+
+}
+
+.countdown-el p{
+  font-size: 72px;
+}
